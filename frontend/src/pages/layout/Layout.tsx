@@ -48,12 +48,12 @@ const Layout = () => {
                 <Stack horizontal verticalAlign="center" horizontalAlign="space-between">
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={ui?.logo ? ui.logo : Contoso}
+                            src={ui?.logo ? ui.logo : '/favicon.ico'}
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>{ui?.title}</h1>
+                            <h1 className={styles.headerTitle}>ChatVBD: A Contoso Initiative</h1>
                         </Link>
                     </Stack>
                     {ui?.show_share_button &&

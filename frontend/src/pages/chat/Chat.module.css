@@ -61,7 +61,8 @@
 }
 
 .chatIcon {
-    height: 62px;
+    height: 370px;
+    border-radius: 33px;
     width: auto;
 }
 
